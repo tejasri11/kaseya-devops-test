@@ -1,0 +1,6 @@
+- name: Windows Server Update
+  hosts: win_vm
+  tasks:
+    - name: Update Packages
+      win_updates:
+        category_names: '*'
