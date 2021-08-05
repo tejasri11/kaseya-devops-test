@@ -68,5 +68,5 @@
 2. Get admin password from /var/lib/jenkins/secrets/initialAdminPassword.
 3. Login with admin password
 4. Install ansible plugin
-6. Create a new jenkins pipeline job with jenkinsfile from https://github.com/usernmae/kaseya-test.git
+6. Create a new jenkins pipeline job with jenkinsfile from https://github.com/tejasri11/kaseya-devops-test.git
 7. Execute the job by passing windows vm user, password and ip as build parameters.
